@@ -5,7 +5,7 @@
 **Typing Race Against AI — Speed, Accuracy & Trash Talk**
 
 ![Last Commit](https://img.shields.io/github/last-commit/Muhammad-Ahmed-Rayyan/TypeBrawl)
-![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript)
+![TypeScript](https://img.shields.io/badge/TypeScript-97.7%25-blue?logo=typescript)
 ![Languages](https://img.shields.io/github/languages/count/Muhammad-Ahmed-Rayyan/TypeBrawl)
 
 <br>
@@ -16,7 +16,7 @@ Built with the tools and technologies:
 ![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338BDF8.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![ShadCN](https://img.shields.io/badge/ShadCN/UI-black?style=for-the-badge)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Firebase](https://img.shields.io/badge/Firebase-%23FFCA28.svg?style=for-the-badge&logo=firebase&logoColor=c1121f)
 
 </div>
 
@@ -29,6 +29,8 @@ Built with the tools and technologies:
 The project blends **speed typing**, **competitive gameplay**, and **personality-driven AI responses** to create an addictive typing experience — inspired by platforms like Monkeytype, but with attitude.
 
 Players can challenge AI across difficulty levels or train solo using a focused practice mode, all within a sleek and responsive UI.
+
+🔗 Check it out: [TypeBrawl](https://typebrawl.netlify.app)
 
 ---
 
@@ -180,6 +182,8 @@ TypeBrawl/
 - Styling: Tailwind CSS
 - UI Components: ShadCN/UI
 - Icons: Lucide React
+
+---
 
 <div align="center">
 
