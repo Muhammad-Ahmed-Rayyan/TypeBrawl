@@ -1,5 +1,6 @@
 <div align="center">
   <img src="https://github.com/Muhammad-Ahmed-Rayyan/TypeBrawl/blob/main/TypeBrawl.png" width="500">
+  
   #
   
   <p><b>Typing Race Against AI — Speed, Accuracy & Trash Talk</b></p>
