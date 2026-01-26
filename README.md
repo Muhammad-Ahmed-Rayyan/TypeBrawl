@@ -1,8 +1,13 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Muhammad-Ahmed-Rayyan/TypeBrawl/main/src/app/typebrawllogo.png" width="48" />
-
-# TypeBrawl
+<h1 style="display:flex; align-items:center; justify-content:center; gap:12px;">
+  <img 
+    src="https://raw.githubusercontent.com/Muhammad-Ahmed-Rayyan/TypeBrawl/main/src/app/typebrawllogo.png"
+    width="72"
+    style="vertical-align:middle;"
+  />
+  TypeBrawl
+</h1>
  
 **Typing Race Against AI — Speed, Accuracy & Trash Talk**
 
