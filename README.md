@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Muhammad-Ahmed-Rayyan/TypeBrawl/main/src/app/typebrawllogo.png" width="580"> 
+<img src="https://raw.githubusercontent.com/Muhammad-Ahmed-Rayyan/TypeBrawl/main/src/app/typebrawllogo.png" width="200"> 
 
 # TypeBrawl
 
