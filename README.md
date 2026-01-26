@@ -1,7 +1,7 @@
 <div align="center">
 
 <img src="https://github.com/Muhammad-Ahmed-Rayyan/TypeBrawl/blob/main/TypeBrawl.png" width="500"> 
-# 
+
 **Typing Race Against AI — Speed, Accuracy & Trash Talk**
 
 ![Last Commit](https://img.shields.io/github/last-commit/Muhammad-Ahmed-Rayyan/TypeBrawl)
