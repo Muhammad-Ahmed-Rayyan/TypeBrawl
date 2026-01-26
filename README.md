@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚔️ TypeBrawl
+# <img src="https://raw.githubusercontent.com/Muhammad-Ahmed-Rayyan/TypeBrawl/main/src/app/typebrawllogo.png" width="48" /> TypeBrawl
  
 **Typing Race Against AI — Speed, Accuracy & Trash Talk**
 
