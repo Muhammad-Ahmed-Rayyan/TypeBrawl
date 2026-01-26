@@ -1,19 +1,9 @@
 <div align="center">
 
-<table>
-  <tr>
-    <td>
-      <img
-        src="https://raw.githubusercontent.com/Muhammad-Ahmed-Rayyan/TypeBrawl/main/src/app/typebrawllogo.png"
-        width="64"
-      />
-    </td>
-    <td>
-      <h1 style="margin:0; padding-left:10px;">TypeBrawl</h1>
-    </td>
-  </tr>
-</table>
- 
+<img src="https://raw.githubusercontent.com/Muhammad-Ahmed-Rayyan/TypeBrawl/main/src/app/typebrawllogo.png" width="580"> 
+
+# TypeBrawl
+
 **Typing Race Against AI — Speed, Accuracy & Trash Talk**
 
 ![Last Commit](https://img.shields.io/github/last-commit/Muhammad-Ahmed-Rayyan/TypeBrawl)
