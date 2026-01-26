@@ -1,86 +1,104 @@
-# TypeBrawl
+<div align="center">
 
-![TypeBrawl]([https://i.imgur.com/eQJt3sU.png](https://github.com/Muhammad-Ahmed-Rayyan/TypeBrawl/blob/main/src/app/typebrawllogo.png))
+# ⚔️ TypeBrawl
+ 
+**Typing Race Against AI — Speed, Accuracy & Trash Talk**
 
-TypeBrawl is a modern and engaging typing game where you can test your speed and accuracy.
-Challenge a dynamic AI opponent across three difficulty levels or enjoy a focused practice
-session in a custom game mode. With a sleek interface, real-time performance tracking, and
-endless replayability, TypeBrawl is the ultimate typing showdown.
+![Last Commit](https://img.shields.io/github/last-commit/Muhammad-Ahmed-Rayyan/TypeBrawl)
+![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript)
+![Languages](https://img.shields.io/github/languages/count/Muhammad-Ahmed-Rayyan/TypeBrawl)
 
-This project was built using Firebase Studio.
+<br>
 
-------------------------------------------------------------
+Built with the tools and technologies:
 
-PROJECT OVERVIEW
+![Next.js](https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338BDF8.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![ShadCN](https://img.shields.io/badge/ShadCN/UI-black?style=for-the-badge)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
-TypeBrawl blends competitive typing practice with an AI-powered opponent that reacts to
-your performance in real time. The game focuses on speed, accuracy, and consistency while
-keeping the experience fun through trash talk, clean UI, and smooth animations.
+</div>
 
-------------------------------------------------------------
+---
 
-FEATURES
+## 🧠 Project Summary
 
-- AI Challenge Mode with Easy, Medium, and Hard difficulty levels
-- Custom Practice Mode with selectable durations (15s, 30s, 60s)
-- Real-time WPM and accuracy calculation
-- Offline AI trash talk system with dynamic messages
-- Dynamic paragraph generation to avoid repetition
-- Local leaderboard for storing top scores
-- Modern, responsive UI built with ShadCN/UI and Tailwind CSS
-- Light and Dark mode with persistent user preference
+**TypeBrawl** is a modern, fast-paced typing game where players compete against a dynamic AI opponent that **types alongside you and trash-talks your performance in real time**.  
 
-------------------------------------------------------------
+The project blends **speed typing**, **competitive gameplay**, and **personality-driven AI responses** to create an addictive typing experience — inspired by platforms like Monkeytype, but with attitude.
 
-TECH STACK
+Players can challenge AI across difficulty levels or train solo using a focused practice mode, all within a sleek and responsive UI.
 
-Framework     : Next.js (App Router)
-Language      : TypeScript
-Styling       : Tailwind CSS
-UI Components : ShadCN/UI
-Icons         : Lucide React
+---
 
-------------------------------------------------------------
+## 🚀 Features
 
-GETTING STARTED
+- 🤖 **AI Challenge Mode**
+  - Compete against AI opponents on **Easy, Medium, and Hard** difficulty levels.
+  - AI reacts dynamically to your typing speed and accuracy.
 
-PREREQUISITES
+- 📝 **Custom Practice Mode**
+  - Practice typing without pressure.
+  - Choose time limits: **15s, 30s, or 60s**.
 
-- Node.js (v18 or later recommended)
-- npm or yarn
+- 📊 **Real-Time Performance Tracking**
+  - Live **WPM**, **accuracy**, and completion stats.
 
-INSTALLATION
+- 🗣️ **Offline AI Trash Talk**
+  - AI roasts, mocks, or encourages you using a curated offline message library.
+  - No API calls required — instant responses.
 
-1. Clone the repository
-   git clone https://github.com/Muhammad-Ahmed-Rayyan/TypeBrawl.git
-   cd TypeBrawl
+- 🔁 **Dynamic Paragraph Generation**
+  - Custom mode generates virtually unlimited unique text from a large word bank.
+  - AI mode uses shuffled paragraph pools to avoid repetition.
 
-2. Install dependencies
-   npm install
+- 🏆 **Local Leaderboard**
+  - Saves top scores per difficulty level.
+  - Compare past performance locally.
 
-3. Run the development server
-   npm run dev
+- 🎨 **Modern UI & UX**
+  - Clean, minimal interface using **ShadCN/UI** and **Tailwind CSS**.
+  - Fully responsive for desktop and mobile.
 
-------------------------------------------------------------
+- 🌗 **Light / Dark Mode**
+  - Toggle themes with preference saved locally.
 
-PROJECT STRUCTURE
+---
 
+## 🔧 Setup & Installation
+
+> Ensure **Node.js (v18 or later)** and **npm** are installed.
+
+```bash
+# Clone the repository
+git clone https://github.com/Muhammad-Ahmed-Rayyan/TypeBrawl.git
+cd TypeBrawl
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+```
+
+---
+
+## 🗃️ Project Structure
+
+```bash
 TypeBrawl/
-│
 ├── .idx/
 │   ├── dev.nix
 │   └── icon.png
-│
 ├── docs/
 │   └── blueprint.md
-│
 ├── src/
 │   ├── ai/
 │   │   ├── dev.ts
 │   │   ├── genkit.ts
 │   │   └── flows/
 │   │       └── generate-trash-talk.ts
-│   │
 │   ├── app/
 │   │   ├── favicon.ico
 │   │   ├── globals.css
@@ -90,19 +108,50 @@ TypeBrawl/
 │   │   ├── typebrawllogo.png
 │   │   └── leaderboard/
 │   │       └── page.tsx
-│   │
 │   ├── components/
 │   │   ├── game-summary-dialog.tsx
 │   │   ├── leaderboard.tsx
 │   │   ├── theme-toggle.tsx
 │   │   └── ui/
-│   │       └── (ShadCN UI components)
-│   │
+│   │       ├── accordion.tsx
+│   │       ├── alert-dialog.tsx
+│   │       ├── alert.tsx
+│   │       ├── avatar.tsx
+│   │       ├── badge.tsx
+│   │       ├── button.tsx
+│   │       ├── calendar.tsx
+│   │       ├── card.tsx
+│   │       ├── carousel.tsx
+│   │       ├── chart.tsx
+│   │       ├── checkbox.tsx
+│   │       ├── collapsible.tsx
+│   │       ├── dialog.tsx
+│   │       ├── dropdown-menu.tsx
+│   │       ├── form.tsx
+│   │       ├── input.tsx
+│   │       ├── label.tsx
+│   │       ├── menubar.tsx
+│   │       ├── popover.tsx
+│   │       ├── progress.tsx
+│   │       ├── radio-group.tsx
+│   │       ├── scroll-area.tsx
+│   │       ├── select.tsx
+│   │       ├── separator.tsx
+│   │       ├── sheet.tsx
+│   │       ├── sidebar.tsx
+│   │       ├── skeleton.tsx
+│   │       ├── slider.tsx
+│   │       ├── switch.tsx
+│   │       ├── table.tsx
+│   │       ├── tabs.tsx
+│   │       ├── textarea.tsx
+│   │       ├── toast.tsx
+│   │       ├── toaster.tsx
+│   │       └── tooltip.tsx
 │   ├── hooks/
 │   │   ├── use-mobile.tsx
 │   │   ├── use-toast.ts
 │   │   └── use-typing-game.ts
-│   │
 │   └── lib/
 │       ├── placeholder-images.json
 │       ├── placeholder-images.ts
@@ -110,14 +159,30 @@ TypeBrawl/
 │       ├── types.ts
 │       ├── utils.ts
 │       └── words.ts
-│
+├── .gitignore
+├── .modified
+├── apphosting.yaml
+├── components.json
+├── next.config.ts
 ├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+├── README.md
 ├── tailwind.config.ts
-├── tsconfig.json
-└── README.md
+└── tsconfig.json
+```
+---
 
-------------------------------------------------------------
+## 🔥 Tech Stack
 
-LICENSE
+- Framework: Next.js (App Router)
+- Language: TypeScript
+- Styling: Tailwind CSS
+- UI Components: ShadCN/UI
+- Icons: Lucide React
 
-This project is open for educational and personal use.
+<div align="center">
+
+⭐ Enjoyed the project? Drop a star on GitHub!
+
+</div>
