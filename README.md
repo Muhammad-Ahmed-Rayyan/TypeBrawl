@@ -5,6 +5,7 @@
   
   <p><b>Typing Race Against AI — Speed, Accuracy & Trash Talk</b></p>
 
+
 ![Last Commit](https://img.shields.io/github/last-commit/Muhammad-Ahmed-Rayyan/TypeBrawl)
 ![TypeScript](https://img.shields.io/badge/TypeScript-97.7%25-blue?logo=typescript)
 ![Languages](https://img.shields.io/github/languages/count/Muhammad-Ahmed-Rayyan/TypeBrawl)
